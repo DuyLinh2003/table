@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form đăng kí học viên</title>
+</head>
+
+<body>
+    <table style="background-color: yellow;">
+        <form>
+            <td colspan="2" style="color: blue; background-color: aqua ;" >
+                ĐĂNG KÝ HỌC VIÊN
+            </td> 
+            <tr style="color: blue;">
+                <td>
+                    <p>
+                        Họ và tên :
+                    </p>
+                </td>
+                <td>
+                    <input name="account" type="text" />
+
+                </td>
+            </tr >
+            <tr  style="color: blue;">
+                <td>
+                    <p>Ngày sinh : </p>
+
+                </td>
+                <td>
+                    <input DATE="account" type="text" />
+                </td>
+            </tr>
+            <tr  style="color: blue;">
+                <td>
+                    <p> giới tính :
+               
+                    </p>
+                </td>
+                <td>
+                    <input type="radio" name="rd" /> male
+                    <input type="radio" name="rd" /> female
+                </td>
+            </tr>
+            <tr  style="color: blue;">
+                <td>
+                    <p>Địa chỉ :
+
+                </td>
+                <td>
+                    <textarea cols="45" rows="4">
+                
+                    </textarea>
+                </td>
+            </tr>
+            <tr  style="color: blue;">
+                <td>
+                    <p>Lớp :
+                </td>
+                <td>
+                    <select name="class">
+                        <option value="CL">_Chọn Lớp_</option>
+                        <option value="L1">Lớp 1</option>
+                        <option value="L2">Lớp 2</option>
+                        <option value="L3">Lớp 3</option>
+                        <option value="L4">Lớp 4</option>
+                        <option value="L5">Lớp 5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr  style="color: blue;">
+                <td>
+                    <p>Email :
+                </td>
+                <td>
+                    <input name="account" type="text" />
+                </td>
+            </tr>
+            <tr  style="color: blue;">
+                <td>
+                    <p>Điện thoại : 
+                </td>
+                <td>
+                    <input name="account" type="text" /> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p> <input type="button" name="Registration" value="Gửi thông tin" />
+                </td>
+                <td>
+                    <input type="button" name="Retype" value="Nhập lại" />
+                </td>
+            </tr>
+        </form>
+    </table>        
+</body>
+
+</html>
