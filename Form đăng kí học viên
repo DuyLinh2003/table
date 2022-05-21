@@ -41,8 +41,8 @@
                     </p>
                 </td>
                 <td>
-                    <input type="radio" name="rd" /> male
-                    <input type="radio" name="rd" /> female
+                    <input type="radio" name="rd" /> Nam 
+                    <input type="radio" name="rd" /> Nữ
                 </td>
             </tr>
             <tr  style="color: blue;">
