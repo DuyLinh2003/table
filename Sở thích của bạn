@@ -1,0 +1,54 @@
+<!DOctype HTML>
+<html>
+
+<head>
+    <title >Sở thích của bạn</title>
+</head>
+
+<body>
+    <form action="taoformdgian.html">
+        <table>
+            <tr>
+                <th colspan="4" bgcolor="orange">Sở thích của bạn</th>
+            </tr>
+            <tr >
+                <td style="color: blue;">Full Name <input type="text" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td style="color: blue;">Email
+                    <input type="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td style="color: blue;">Sở thích :</td>
+                <td>
+                    <input type="checkbox">Thể Thao
+                </td>
+                <td><input type="checkbox">Âm nhạc</td>
+                <td>
+                    <input type="checkbox">Đọc sách
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox">Lướt Web</td>
+                <td>
+                    <input type="checkbox">Chơi Game</td>
+                <td>
+                    <input type="checkbox">Điện Ảnh</td>
+            </tr>
+            <tr>
+                <td></td>
+
+                <td><input type="checkbox">Du lịch</td>
+            </tr>
+
+        </table>
+        <input type="submit" value="Gửi Thông Tin">
+        <input type="reset" value="Nhập lại">
+    </form>
+
+</body>
+
+</html>
